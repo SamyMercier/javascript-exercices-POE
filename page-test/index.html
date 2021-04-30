@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>site du machin truc</title>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="styles/style.index.css">
+        <link rel="stylesheet" href="styles/style.header.css">
+    </head>
+
+    <header>
+        <a id="menu" href="index.html">MENU</span>
+        <a class="menu-button" href="pages/fuite.html">Fuite</a>
+        <a class="menu-button" href="pages/image-spin.html">Image spin</a>
+        <a class="menu-button" href="pages/calculatrice.html">Calculatrice</a>
+    </header>
+
+    <body>
+       <form method="GET" name="formulaire">
+           <div id="form-div">
+               <p>FORMULAIRE D'INSCRIPTION</p>
+                <div>
+                    <label>Nom :</label>
+                    <input type="text" name="nom">
+                </div>
+                <div>
+                    <label>Prénom :</label>
+                    <input type="text" name="prenom">
+                </div>
+                <div>
+                    <label>Age :</label>
+                    <input type="text" name="age">
+                </div>
+                <div>
+                    <label>Sexe :</label>
+                    <span>Mâle</span>
+                    <input type="radio" name="sexe" value="mâle">
+                    <span>Femele</span>
+                    <input type="radio" name="sexe" value="femele">
+                    <span>Autre</span>
+                    <input type="radio" name="sexe" value="autre">
+                </div>
+                <div>
+                    <label>Ville :</label>
+                    <input type="text" name="ville">
+                </div>
+           </div>
+           <input id="submit-button" type="button" value="VALIDER" onclick="alertInfo()">
+       </form>
+
+
+       <script src="scripts/index.js"></script>
+    </body>
+
+    
+</html>

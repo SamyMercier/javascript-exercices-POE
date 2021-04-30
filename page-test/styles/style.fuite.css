@@ -1,0 +1,17 @@
+#bouton{
+    position: relative;
+    padding: 5px 10px;
+    width: 170px;
+    height: 20px;
+    border : 2px solid black;
+    border-radius : 5px;
+    background-color: black;
+    color: white;
+}
+
+#bouton:hover{
+    cursor: pointer;
+    background-color: red;
+    color:black;
+    font-weight: bold;
+}
